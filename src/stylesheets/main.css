@@ -1,0 +1,82 @@
+body {
+  background-color: #eee;
+}
+
+.title {
+  color: #000;
+  font-family: Roboto-Black;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.subtitle {
+  color: #000;
+  font-family: Roboto-Black;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  width: auto;
+}
+
+.containrow {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  width: auto;
+}
+
+.flex {
+  display: flex;
+  width: auto;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+}
+
+.state-hex {
+  dominant-baseline: central;
+  text-anchor: middle;
+  font-size: 12px;
+  font-family: sans-serif;
+  text-shadow: 1px 0 1px #ddd,
+    -1px 0 1px #ddd,
+    0  1px 1px #ddd,
+    0 -1px 1px #ddd;
+}
+
+.state-hex-label {
+  pointer-events: none;
+}
+
+.state-selected {
+  fill: #000;
+  font-weight: bold;
+}
+
+.hover-bar {
+  pointer-events: none;
+}
+
+.year {
+  font-size: 28px;
+}
+
+.tooltip {
+  background: #FFFFFF;
+  border: 2px solid #979797;
+  border-radius: 4px;
+  overflow-y: hidden;
+  position: absolute;
+  white-space: nowrap;
+}
+
+.relative {
+  position: relative;
+}
