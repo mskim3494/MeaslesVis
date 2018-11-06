@@ -1,5 +1,7 @@
 # hw7 - Measles data exploration
 
+![alt text] (https://github.com/mskim3494/MeaslesVis/edit/master/final_product.png)
+
 This final homework assignment creates a simple interactive tool for exploring data about the number
 measles cases per US state from 1930 to 2016.  The rates of measles dropped off with the
 introduction of the vaccine in the 1960s, and lowered again in the 1980s with the practice of giving
